@@ -297,29 +297,21 @@ export default function Home() {
         </div>
       </section>
 
-
       <section
         className="reality-contact-bridge"
-        aria-label="Reality Contact infrastructure layer"
+        aria-label="Reality Contact runtime verification layer"
       >
         <div className="reality-contact-inner">
-          <div className="reality-contact-label">
-            RUNTIME VERIFICATION INFRASTRUCTURE
-          </div>
+          <div>
+            <span className="reality-contact-label">
+              RUNTIME VERIFICATION INFRASTRUCTURE
+            </span>
 
-          <h2>Reality Contact Core</h2>
+            <strong>Reality Contact Core</strong>
 
-          <p className="reality-contact-copy">
-            Verifies whether declared operational state still maintains
-            sufficient evidentiary contact with observed reality before
-            high-consequence execution.
-          </p>
-
-          <div className="reality-contact-points">
-            <span>Operational Drift Detection</span>
-            <span>Runtime Reality Verification</span>
-            <span>Continuity Validation</span>
-            <span>Multi-System Coordination</span>
+            <p>
+              Coherence is not contact. Verifies operational state against observed reality before consequence.
+            </p>
           </div>
 
           <a
