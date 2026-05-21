@@ -2913,3 +2913,127 @@ a{
     font-size:32px;
   }
 }
+
+
+.reality-contact-bridge{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:7.8rem;
+  width:min(1100px,78vw);
+  z-index:12
+}
+
+.reality-contact-inner{
+  background:
+    linear-gradient(
+      135deg,
+      rgba(5,10,20,.92),
+      rgba(4,20,45,.88)
+    );
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:28px;
+  padding:1.6rem 2rem;
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.38),
+    inset 0 1px 0 rgba(255,255,255,.04);
+  backdrop-filter:blur(12px);
+  text-align:center
+}
+
+.reality-contact-label{
+  color:#f0b90b;
+  font-size:.72rem;
+  font-weight:700;
+  letter-spacing:.22em;
+  margin-bottom:.7rem
+}
+
+.reality-contact-inner h2{
+  color:#fff;
+  font-size:clamp(2rem,3vw,3rem);
+  font-weight:800;
+  margin-bottom:.85rem
+}
+
+.reality-contact-copy{
+  max-width:760px;
+  margin:0 auto 1.3rem;
+  color:rgba(255,255,255,.84);
+  font-size:1rem;
+  line-height:1.7
+}
+
+.reality-contact-points{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:.75rem;
+  margin-bottom:1.5rem
+}
+
+.reality-contact-points span{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.08);
+  color:rgba(255,255,255,.86);
+  padding:.55rem .9rem;
+  border-radius:999px;
+  font-size:.82rem;
+  font-weight:600
+}
+
+.reality-contact-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:
+    linear-gradient(
+      135deg,
+      #f0b90b,
+      #ffcb3d
+    );
+  color:#08111f;
+  padding:.9rem 1.4rem;
+  border-radius:999px;
+  text-decoration:none;
+  font-weight:800;
+  letter-spacing:.02em;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease
+}
+
+.reality-contact-button:hover{
+  transform:translateY(-2px);
+  box-shadow:
+    0 12px 30px rgba(240,185,11,.28)
+}
+
+@media (max-width:1200px){
+  .reality-contact-bridge{
+    position:relative;
+    inset:auto;
+    transform:none;
+    width:min(92vw,900px);
+    margin:2rem auto 0
+  }
+}
+
+@media (max-width:768px){
+  .reality-contact-inner{
+    padding:1.4rem
+  }
+
+  .reality-contact-copy{
+    font-size:.94rem;
+    line-height:1.6
+  }
+
+  .reality-contact-points{
+    gap:.55rem
+  }
+
+  .reality-contact-points span{
+    font-size:.75rem
+  }
+}
