@@ -297,6 +297,42 @@ export default function Home() {
         </div>
       </section>
 
+
+      <section
+        className="reality-contact-bridge"
+        aria-label="Reality Contact infrastructure layer"
+      >
+        <div className="reality-contact-inner">
+          <div className="reality-contact-label">
+            RUNTIME VERIFICATION INFRASTRUCTURE
+          </div>
+
+          <h2>Reality Contact Core</h2>
+
+          <p className="reality-contact-copy">
+            Verifies whether declared operational state still maintains
+            sufficient evidentiary contact with observed reality before
+            high-consequence execution.
+          </p>
+
+          <div className="reality-contact-points">
+            <span>Operational Drift Detection</span>
+            <span>Runtime Reality Verification</span>
+            <span>Continuity Validation</span>
+            <span>Multi-System Coordination</span>
+          </div>
+
+          <a
+            className="reality-contact-button"
+            href="https://www.reality-contact.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Reality Contact →
+          </a>
+        </div>
+      </section>
+
       <button
         className="contact-open-button"
         type="button"
