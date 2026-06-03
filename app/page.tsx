@@ -313,21 +313,25 @@ export default function Home() {
           </div>
         </a>
 
-        <div className="governance-card">
-          <div className="governance-mark" aria-hidden="true">
-            ✓
-          </div>
+        <a
+  className="governance-card"
+  href="https://moralclarity.ai"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div className="governance-mark" aria-hidden="true">
+    ✓
+  </div>
 
-          <div>
-            <h3>Built on Moral Clarity</h3>
+  <div>
+    <h3>Built on Moral Clarity</h3>
 
-            <p>
-              Not what AI recommends — what AI is allowed to do.
-              Ethical. Transparent. Aligned.
-            </p>
-          </div>
-        </div>
-      </section>
+    <p>
+      Not what AI recommends — what AI is allowed to do.
+      Ethical. Transparent. Aligned.
+    </p>
+  </div>
+</a>
 
       <section
         className="reality-contact-bridge"
