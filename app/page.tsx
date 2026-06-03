@@ -313,7 +313,6 @@ export default function Home() {
           </div>
         </a>
 
-        <a
       <a
       className="governance-card"
       href="https://moralclarity.ai"
