@@ -281,7 +281,29 @@ export default function Home() {
           </div>
         </a>
 
-        <div className="governance-card">
+        
+            <a
+              className="ai-card"
+              href="https://moralclarity.ai/systems/veil"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="governance-mark" aria-hidden="true">
+                ✓
+              </div>
+
+              <div>
+                <h3>Veil</h3>
+
+                <p>
+                  Runtime governance for agentic AI. Evaluates authority,
+                  admissibility, continuity, evidence sufficiency, and
+                  execution legitimacy before consequence binds.
+                </p>
+              </div>
+            </a>
+
+<div className="governance-card">
           <div className="governance-mark" aria-hidden="true">
             ✓
           </div>
