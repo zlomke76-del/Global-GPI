@@ -207,7 +207,16 @@ export default function Home() {
 
           <h2>
             AI SYSTEMS
-            <span>Powered by Moral Clarity</span>
+            <span>
+              <a
+                href="https://moralclarity.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                Powered by Moral Clarity
+              </a>
+            </span>
           </h2>
 
           <p>
@@ -281,29 +290,30 @@ export default function Home() {
           </div>
         </a>
 
-        
-            <a
-              className="ai-card"
-              href="https://moralclarity.ai/systems/veil"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="governance-mark" aria-hidden="true">
-                ✓
-              </div>
+        <a
+          className="ai-card"
+          href="https://moralclarity.ai/systems/veil"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/images/veil.png"
+            alt="Veil"
+            className="ai-card-image"
+          />
 
-              <div>
-                <h3>Veil</h3>
+          <div>
+            <h3>Veil</h3>
 
-                <p>
-                  Runtime governance for agentic AI. Evaluates authority,
-                  admissibility, continuity, evidence sufficiency, and
-                  execution legitimacy before consequence binds.
-                </p>
-              </div>
-            </a>
+            <p>
+              Runtime governance for agentic AI. Verifies authority,
+              admissibility, continuity, evidence sufficiency, and
+              execution legitimacy before action.
+            </p>
+          </div>
+        </a>
 
-<div className="governance-card">
+        <div className="governance-card">
           <div className="governance-mark" aria-hidden="true">
             ✓
           </div>
