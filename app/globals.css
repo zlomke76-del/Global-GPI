@@ -820,7 +820,10 @@ a{
     gap:12px;
     padding:11px 13px
   }
-
+  .governance-card{
+    text-decoration: none;
+    color: inherit;
+  }
   .governance-mark{
     width:42px;
     height:42px;
