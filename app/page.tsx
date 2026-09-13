@@ -353,7 +353,7 @@ export default function Home() {
             <strong>Global GPI</strong>
 
             <p>
-              Newfoundland &amp; Labrador, Canada · Certified to represent Harmonic within current authorized scope.
+              Newfoundland, Canada · Certified to represent Harmonic within current authorized scope.
             </p>
           </div>
 
@@ -396,7 +396,7 @@ export default function Home() {
             <h2>Contact Global GPI</h2>
 
             <p>
-              Send a direct inquiry to Charlie and the Global GPI team in Newfoundland &amp; Labrador, Canada.
+              Send a direct inquiry to Charlie and the Global GPI team in Newfoundland, Canada.
             </p>
 
             <form
