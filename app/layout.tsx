@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Global GPI",
+  title: "Global GPI | Sustainable Materials & Governed AI Systems",
   description:
-    "Materials, defense, filtration, and applied intelligence systems.",
+    "Global GPI engineers sustainable material platforms and intelligent systems from Newfoundland & Labrador, Canada. Harmonic Certified Distribution Partner of Moral Clarity AI.",
   icons: {
     icon: [
       {

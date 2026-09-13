@@ -220,7 +220,7 @@ export default function Home() {
           </h2>
 
           <p>
-            Execution-time AI. Controlled. Trusted. Accountable.
+            Governed execution for consequential AI systems.
           </p>
         </div>
 
@@ -315,50 +315,59 @@ export default function Home() {
 
         <a
           className="governance-card"
-          href="https://moralclarity.ai"
+          href="https://www.solace-harmonic.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="governance-mark" aria-hidden="true">
-            ✓
+            ΔN
           </div>
 
           <div>
-            <h3>Built on Moral Clarity</h3>
+            <h3>Governed by Harmonic</h3>
 
             <p>
-              Not what AI recommends — what AI is allowed to do.
-              Ethical. Transparent. Aligned.
+              Models propose. Governance decides. Truth survives.
+              Execution authority is established at the point of consequence.
             </p>
           </div>
         </a>
       </section>
 
       <section
-        className="reality-contact-bridge"
-        aria-label="Reality Contact runtime verification layer"
+        className="partner-certification-bridge"
+        aria-label="Harmonic Certified Distribution Partner"
       >
-        <div className="reality-contact-inner">
-          <div>
-            <span className="reality-contact-label">
-              RUNTIME VERIFICATION INFRASTRUCTURE
+        <div className="partner-certification-inner">
+          <img
+            src="/images/harmonic-certified-distribution-partner-mark.png"
+            alt="Moral Clarity AI Harmonic Certified Distribution Partner"
+            className="partner-certification-mark"
+          />
+
+          <div className="partner-certification-copy">
+            <span className="partner-certification-label">
+              HARMONIC CERTIFIED DISTRIBUTION PARTNER
             </span>
 
-            <strong>Reality Contact Core</strong>
+            <strong>Global GPI</strong>
 
             <p>
-              Coherence is not contact. Verifies operational state against observed reality before consequence.
+              Newfoundland &amp; Labrador, Canada · Certified to represent Harmonic within current authorized scope.
             </p>
           </div>
 
-          <a
-            className="reality-contact-button"
-            href="https://www.reality-contact.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit Reality Contact →
-          </a>
+          <div className="partner-certification-actions">
+            <span className="partner-standing">ACTIVE</span>
+            <a
+              className="partner-certification-button"
+              href="https://moralclarity.ai/partners"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Certified Network →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -387,7 +396,7 @@ export default function Home() {
             <h2>Contact Global GPI</h2>
 
             <p>
-              Send a direct inquiry to Charlie and the Global GPI team.
+              Send a direct inquiry to Charlie and the Global GPI team in Newfoundland &amp; Labrador, Canada.
             </p>
 
             <form
