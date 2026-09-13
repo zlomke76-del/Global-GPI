@@ -50,7 +50,7 @@ export default function ContactPage() {
 
         <div className="contact-v2-container">
           <div className="contact-v2-copy">
-            <span className="contact-v2-kicker">Global GPI</span>
+            <span className="contact-v2-kicker">Global GPI · Newfoundland &amp; Labrador, Canada</span>
 
             <h1>
               Let’s Build the Future of Materials.
@@ -59,7 +59,7 @@ export default function ContactPage() {
             <p>
               Connect with Global GPI regarding advanced materials partnerships,
               commercial deployment, licensing, manufacturing collaboration,
-              sustainability initiatives, and strategic opportunities.
+              sustainability initiatives, Harmonic distribution, and strategic opportunities.
             </p>
 
             <div className="contact-v2-proof-grid">
@@ -78,6 +78,7 @@ export default function ContactPage() {
                   <li>Food-contact packaging systems</li>
                   <li>Sustainable plastics deployment</li>
                   <li>Industrial and commercial partnerships</li>
+                  <li>Harmonic governed-execution distribution</li>
                 </ul>
               </article>
             </div>
